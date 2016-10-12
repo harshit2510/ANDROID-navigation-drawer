@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_person_pin_circle_black_24dp"
+            android:title="Mini Map" />
+        <item
+            android:id="@+id/nav_anna"
+            android:icon="@drawable/ic_local_dining_black_24dp"
+            android:title="Annapurna" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_event_note_black_24dp"
+            android:title="Events" />
+
+        <item
+            android:id="@+id/nav_sports"
+            android:icon="@drawable/ic_directions_bike_black_24dp"
+            android:title="Sports" />
+        <item
+            android:id="@+id/nav_cal"
+            android:icon="@drawable/ic_date_range_black_24dp"
+            android:title="Academic Calender" />
+        <item
+            android:id="@+id/nav_alumni"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="Alumni" />
+    </group>
+
+    <item
+        android:title="Teacher">
+        <menu>
+            <item
+                android:id="@+id/nav_timetable"
+                android:icon="@drawable/ic_chrome_reader_mode_black_24dp"
+                android:title="TimeTable" />
+            <item
+                android:id="@+id/nav_freeslot"
+                android:icon="@drawable/ic_local_library_black_24dp"
+                android:title="Free Slots" />
+        </menu>
+    </item>
+
+
+
+    <item android:title="Contact Us">
+
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_build_black_24dp"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+</menu>
